@@ -83,6 +83,11 @@ __● Programing__
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [Ruby](http://ruby-doc.org/)
 * [PCRE](https://www.pcre.org/)
+* [The C Library Reference Guide](http://www.fortran-2000.com/ArnaudRecipes/Cstd/)
+* [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/)
+* [The GNU C Library](https://www.gnu.org/software/libc/manual/)
+* [The GNU C++ Library](https://gcc.gnu.org/onlinedocs/libstdc++/manual/)
+* [cppreference.com](https://en.cppreference.com/w/)
 
 __● Opration System__
 
