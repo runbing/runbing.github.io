@@ -73,8 +73,8 @@ caches any reflections it generates to minimize the potential performance impact
 
 * [实例共享](#实例共享)
 * [实例化委托](#实例化委托)
-* [预设与设值注入](#配制与设值注入)
-* [注入执行](#注入执行)
+* [预备与设值注入](#预备与设值注入)
+* [执行注入](#执行注入)
 * [依赖解析](#依赖解析)
 
 <!-- **Example Use Cases** -->
@@ -789,14 +789,14 @@ var_dump($obj->value); // int(2)
 
 <!-- ### Prepares and Setter Injection -->
 
-### 预设与设值注入
+### 预备与设值注入
 
 <!-- Constructor injection is almost always preferable to setter injection. However, some APIs require
 additional post-instantiation mutations. auryn accommodates these use cases with its
 `Injector::prepare()` method. Users may register any class or interface name for post-instantiation
 modification. Consider: -->
 
-构造函数注入几乎总会被设值注入（Setter Injection）更可取，然而，有些 API 需要额外的实例化后转变。Auryn 利用 `Injector::prepare()` 方法为这些用例提供了便利。用户可以注册任何类或接口名称以进行实例化后修改。考虑以下情况：
+构造函数注入几乎总是比设值注入（Setter Injection）更可取，然而，有些 API 需要额外的实例化后转变。Auryn 利用 `Injector::prepare()` 方法为这些用例提供了便利。用户可以注册任何类或接口名称以进行实例化后修改。考虑以下情况：
 
 ```php
 <?php
@@ -819,7 +819,7 @@ var_dump($myObj->myProperty); // int(42)
 
 <!-- ### Injecting for Execution -->
 
-### 注入执行
+### 执行注入
 
 <!-- In addition to provisioning class instances using constructors, auryn can also recursively instantiate
 the parameters of any [valid PHP callable](http://php.net/manual/en/language.types.callable.php).

@@ -122,6 +122,7 @@ __● Others__
 * [assiinema](https://asciinema.org/)
 * [Firefox Send](https://send.firefox.com/)
 * [icoutils](https://www.nongnu.org/icoutils/)
+* [Vim help](https://vimhelp.org/)
 
 ### ○ Artists Sites
 
