@@ -9,6 +9,41 @@ Resources for learning &amp; review.
 
 ### ○ Technology Docs
 
+#### ● Programing
+
+* [PHP](http://php.net/manual/en/)
+* [PHP Standards Recommendations](https://www.php-fig.org/psr/)
+* [PHP Documentor](https://docs.phpdoc.org/)
+* [PHP The Right Way](https://phptherightway.com)
+* [Python 3](https://docs.python.org/3/)
+* [Python 2](https://docs.python.org/2/)
+* [Scrapy](https://docs.scrapy.org)
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [Ruby](http://ruby-doc.org/)
+* [PCRE](https://www.pcre.org/)
+* [The C Library Reference Guide](http://www.fortran-2000.com/ArnaudRecipes/Cstd/)
+* [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/)
+* [The GNU C Library](https://www.gnu.org/software/libc/manual/)
+* [The GNU C++ Library](https://gcc.gnu.org/onlinedocs/libstdc++/manual/)
+* [cppreference.com](https://en.cppreference.com/w/)
+
+#### ● Opration System
+
+* [Redhat Administrators Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/)
+* [CentOS Wiki](https://wiki.centos.org/)
+* [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html.en)
+* [Linux Kernel](https://www.kernel.org/doc/html/latest/)
+* [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
+* [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html)
+* [The Linux System Administrators' Guide](http://tldp.org/LDP/sag/html/index.html)
+* [GNU Software](https://www.gnu.org/software/software.en.html)
+* [curl](https://curl.haxx.se/)
+* [Windows commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+* [SS64](https://ss64.com/)
+* [Windows Batch Scripting](https://en.wikibooks.org/wiki/Windows_Batch_Scripting)
+* [firewalld Documentation](https://firewalld.org/documentation/)
+* [The man-pages project](https://www.kernel.org/doc/man-pages/)
+
 #### ● Web Front End
 
 * [HTML Living Standard](https://html.spec.whatwg.org/)
@@ -33,14 +68,14 @@ Resources for learning &amp; review.
 * [Markdown](https://daringfireball.net/projects/markdown/)
 * [Quill](https://quilljs.com/docs/)
 
-__● Web Back End__
+#### ● Web Back End
 
 * [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 * [HTTP Documentation](http://httpwg.org/specs/)
 * [Nginx](https://nginx.org/en/docs/)
 * [Node.js API](https://nodejs.org/api/)
 
-__● Database__
+#### ● Database
 
 * [MySQL](https://dev.mysql.com/doc/)
 * [Redis](https://redis.io/documentation)
@@ -48,16 +83,13 @@ __● Database__
 * [MongoDB](https://docs.mongodb.com/manual/)
 * [peewee](http://docs.peewee-orm.com/en/latest/)
 
-__● Tools &amp; Framwork__
+#### ● Framwork
 
 * [Laravel](https://laravel.com/docs/master)
 * [Wordpress](https://codex.wordpress.org/)
-* [Composer](https://getcomposer.org/doc/)
 * [Awesome PHP](https://github.com/ziadoz/awesome-php)
 * [Flask](http://flask.pocoo.org/docs/)
 * [Django](https://docs.djangoproject.com/)
-* [webpack](https://webpack.js.org/guides/)
-* [Sass](http://sass-lang.com/documentation/)
 * [jQeury API](https://api.jquery.com/)
 * [Angular](https://docs.angularjs.org/tutorial/)
 * [React](https://reactjs.org/docs/)
@@ -67,46 +99,17 @@ __● Tools &amp; Framwork__
 * [Semantic UI](https://semantic-ui.com/introduction/getting-started.html)
 * [CKEditor](https://ckeditor.com/docs/)
 * [Jekyll](https://jekyllrb.com/docs/)
-* [Git](https://git-scm.com/docs)
-* [GitHub](https://guides.github.com/)
 * [Liquid](https://shopify.github.io/liquid/tags/iteration/)
 
-__● Programing__
+#### ● Tools
 
-* [PHP](http://php.net/manual/en/)
-* [PHP Standards Recommendations](https://www.php-fig.org/psr/)
-* [PHP Documentor](https://docs.phpdoc.org/)
-* [PHP The Right Way](https://phptherightway.com)
-* [Python 3](https://docs.python.org/3/)
-* [Python 2](https://docs.python.org/2/)
-* [Scrapy](https://docs.scrapy.org)
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Ruby](http://ruby-doc.org/)
-* [PCRE](https://www.pcre.org/)
-* [The C Library Reference Guide](http://www.fortran-2000.com/ArnaudRecipes/Cstd/)
-* [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/)
-* [The GNU C Library](https://www.gnu.org/software/libc/manual/)
-* [The GNU C++ Library](https://gcc.gnu.org/onlinedocs/libstdc++/manual/)
-* [cppreference.com](https://en.cppreference.com/w/)
+* [webpack](https://webpack.js.org/guides/)
+* [Sass](http://sass-lang.com/documentation/)
+* [Composer](https://getcomposer.org/doc/)
+* [Git](https://git-scm.com/docs)
+* [GitHub](https://guides.github.com/)
 
-__● Opration System__
-
-* [Redhat Administrators Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/)
-* [CentOS Wiki](https://wiki.centos.org/)
-* [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html.en)
-* [Linux Kernel](https://www.kernel.org/doc/html/latest/)
-* [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
-* [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html)
-* [The Linux System Administrators' Guide](http://tldp.org/LDP/sag/html/index.html)
-* [GNU Software](https://www.gnu.org/software/software.en.html)
-* [curl](https://curl.haxx.se/)
-* [Windows commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-* [SS64](https://ss64.com/)
-* [Windows Batch Scripting](https://en.wikibooks.org/wiki/Windows_Batch_Scripting)
-* [firewalld Documentation](https://firewalld.org/documentation/)
-* [The man-pages project](https://www.kernel.org/doc/man-pages/)
-
-__● Others__
+#### ● Others
 
 * [Elastic](https://www.elastic.co/guide/)
 
@@ -155,4 +158,4 @@ __● Others__
 * [Michael Kerrisk](https://man7.org/index.html)
 * [Christian Heilmann](https://christianheilmann.com/)
 * [I LOVE TYPOGRAPHY](https://ilovetypography.com/)
-* [当然我在扯淡](http://www.yinwang.org/)
+* [learningseo.io](https://learningseo.io/)
