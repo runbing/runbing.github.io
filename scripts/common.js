@@ -70,7 +70,6 @@ function showItemBlock(event) {
 }
 
 // Show Comment Content
-
 var post_content = document.getElementsByClassName('post-content')[0];
 
 function showNextComment() {
@@ -83,6 +82,8 @@ function showNextComment() {
     this.appendChild(content);
 }
 
-for (const element of post_content.children) {
-    element.addEventListener('dblclick', showNextComment, {'once': true});
+if (post_content) {
+    for (const element of post_content.children) {
+        element.addEventListener('dblclick', showNextComment, {'once': true});
+    }
 }

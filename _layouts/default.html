@@ -4,10 +4,12 @@
   {%- include head.html -%}
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NS6MKZ6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    {% if jekyll.environment == 'production'  %}
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NS6MKZ6"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
 
     {%- include header.html -%}
 
@@ -20,10 +22,5 @@
     {%- include footer.html -%}
 
     <script src="/scripts/common.js?t={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
-
-  {% if site.url contains 'runbing'  %}
-    {% include google-analytics.html %}
-  {% endif %}
-
   </body>
 </html>
