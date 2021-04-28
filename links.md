@@ -71,6 +71,7 @@ Resources for learning &amp; review.
   * [ECMAScript](https://www.ecma-international.org/technical-committees/tc39/)
     * [ECMAScript (ECMA-262)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
     * [Json (ECMA-404)](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/)
+* [TC39](https://tc39.es/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
   * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
   * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
@@ -99,6 +100,7 @@ Resources for learning &amp; review.
 * [jQeury API](https://api.jquery.com/)
 * [Angular](https://angular.io/docs/)
 * [React](https://reactjs.org/docs/)
+* [Next.js](https://nextjs.org/docs/getting-started)
 * [Bootstrap](https://getbootstrap.com/docs/)
 * [PureCSS](https://purecss.io/)
 * [Material Design](https://material.io/)
@@ -123,6 +125,7 @@ Resources for learning &amp; review.
 * [Wordpress](https://codex.wordpress.org/)
 * [Scrapy](https://docs.scrapy.org)
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [auryn](https://github.com/rdlowrey/auryn)
 
 #### ● Database
 
@@ -144,6 +147,10 @@ Resources for learning &amp; review.
 
 * [Linux Kernel](https://www.kernel.org/doc/)
   * [The man-pages project](https://www.kernel.org/doc/man-pages/)
+    * [User commands](https://man7.org/linux/man-pages/dir_section_1.html)
+    * [Devices](https://man7.org/linux/man-pages/dir_section_4.html)
+    * [Files](https://man7.org/linux/man-pages/dir_section_5.html)
+    * [Superuser and system administration commands](https://man7.org/linux/man-pages/dir_section_8.html)
 * [Fedora Docs](https://docs.fedoraproject.org/en-US)
 * [Redhat Administrators Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/)
 * [CentOS Documentation](https://docs.centos.org/en-US/docs/)
@@ -157,6 +164,9 @@ Resources for learning &amp; review.
 * [openSUSE](https://doc.opensuse.org/)
   * [Startup Guide](https://doc.opensuse.org/documentation/leap/startup/html/book-opensuse-startup/index.html)
   * [Reference Guide](https://doc.opensuse.org/documentation/leap/reference/html/book-opensuse-reference/index.html)
+* [Arch Linux](https://wiki.archlinux.org/)
+  * [Installation guide](https://wiki.archlinux.org/index.php/Installation_guide)
+  * [General recommendations](https://wiki.archlinux.org/index.php/General_recommendations)
 * [Gentoo](https://wiki.gentoo.org/wiki/Main_Page)
   * [Handbook](https://wiki.gentoo.org/wiki/Handbook:Main_Page)
 * [The Linux Development Project](http://tldp.org/)
@@ -178,6 +188,10 @@ Resources for learning &amp; review.
 * [firewalld](https://firewalld.org/documentation/)
 * [curl](https://curl.haxx.se/)
 * [Vim help](https://vimhelp.org/)
+* [Docker](https://docs.docker.com/)
+  * [Guid](https://docs.docker.com/get-started/overview/)
+  * [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+  * [Compose file](https://docs.docker.com/compose/compose-file/)
 
 #### ● Tools
 
@@ -194,6 +208,16 @@ Resources for learning &amp; review.
 * [icoutils](https://www.nongnu.org/icoutils/)
 * [Tesseract](https://github.com/tesseract-ocr/tessdoc)
 * [Jenkins](https://www.jenkins.io/doc/)
+* [spaCy](https://spacy.io/api)
+* [LemmInflect](https://lemminflect.readthedocs.io/en/latest/)
+* [Certbot](https://certbot.eff.org/docs/)
+* [Blender](https://www.blender.org/support/)
+* [Cinema 4D](https://help.maxon.net/r23/en-us/)
+* [fontTools](https://fonttools.readthedocs.io/)
+* [FontForge](https://fontforge.org/en-US/documentation/)
+* [Adobe Font Development Kit for OpenType (AFDKO)](https://github.com/adobe-type-tools/afdko)
+  * [AFDKO Overview](https://adobe-type-tools.github.io/afdko/AFDKO-Overview.html)
+  * [AFDKO wiki](https://github.com/adobe-type-tools/afdko/wiki)
 
 ### ● Services
 
@@ -205,6 +229,9 @@ Resources for learning &amp; review.
 #### ● Others
 
 * [Elastic](https://www.elastic.co/guide/)
+* [GraphQL](https://graphql.org/code/)
+  * [Learn](https://graphql.org/learn/)
+  * [Specification](https://spec.graphql.org/)
 
 ### ○ Usefully Resources
 
@@ -225,6 +252,8 @@ Resources for learning &amp; review.
 * [Adobe Fonts](https://fonts.adobe.com)
 * [Adobe Color](https://color.adobe.com/)
 * [Knoema](http://knoema.com/)
+* [OpenType Specification](https://docs.microsoft.com/en-us/typography/opentype/spec/)
+* [TrueType Reference Manual](https://developer.apple.com/fonts/TrueType-Reference-Manual/)
 
 ### ○ Favorite Blogs
 
