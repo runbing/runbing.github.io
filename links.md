@@ -93,7 +93,9 @@ Resources for learning &amp; review.
   * [HTTP/2 (RFC7540)](https://httpwg.org/specs/rfc7540.html)
 * [HTTP (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 * [Nginx](https://nginx.org/en/docs/)
-* [Node.js](https://nodejs.org/api/)
+* [Node.js](https://nodejs.org/en/docs/)
+  * [Guides](https://nodejs.org/en/docs/guides/)
+  * [API reference documentation](https://nodejs.org/api/)
 
 #### ● Web Front-end Framwork
 
@@ -126,6 +128,7 @@ Resources for learning &amp; review.
 * [Scrapy](https://docs.scrapy.org)
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * [auryn](https://github.com/rdlowrey/auryn)
+* [Express](https://expressjs.com/)
 
 #### ● Database
 
@@ -192,6 +195,11 @@ Resources for learning &amp; review.
   * [Guid](https://docs.docker.com/get-started/overview/)
   * [Dockerfile](https://docs.docker.com/engine/reference/builder/)
   * [Compose file](https://docs.docker.com/compose/compose-file/)
+* [freedesktop.org](https://www.freedesktop.org/)
+  * [Software](https://www.freedesktop.org/wiki/Software/)
+  * [Interoperability specifications](https://www.freedesktop.org/wiki/Specifications/)
+* [Stop Disabling SELinux](https://stopdisablingselinux.com/)
+  * [Learn how to use it](https://www.youtube.com/watch?v=_WOKRaM-HI4)
 
 #### ● Tools
 
@@ -218,6 +226,13 @@ Resources for learning &amp; review.
 * [Adobe Font Development Kit for OpenType (AFDKO)](https://github.com/adobe-type-tools/afdko)
   * [AFDKO Overview](https://adobe-type-tools.github.io/afdko/AFDKO-Overview.html)
   * [AFDKO wiki](https://github.com/adobe-type-tools/afdko/wiki)
+* [WireShark](https://www.wireshark.org/docs/)
+  * [User's Guide](https://www.wireshark.org/docs/wsug_html_chunked)
+  * [Manual Pages](https://www.wireshark.org/docs/man-pages/)
+  * [Display Filter Reference](https://www.wireshark.org/docs/dfref/)
+* [Pandoc](https://pandoc.org/MANUAL.html)
+* [OpenVPN](https://openvpn.net/community-resources/)
+  * [2x HOW TO](https://openvpn.net/community-resources/how-to/)
 
 ### ● Services
 
