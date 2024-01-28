@@ -1,0 +1,96 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Runbing's Blog
+lang: zh-CN
+# email: example@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  My playground. Log what I am interested in.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://runbing.me" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: example
+show_excerpts: true
+markdown: kramdown
+
+permalink: /archives/:title.html
+
+collections:
+  buzzes:
+    output: true
+    permalink: /buzzes/:title.html
+
+header_pages:
+  - buzzes.md
+  - links.md
+  - tags.md
+  - categories.md
+  - about.md
+
+theme: minima
+minima:
+  # skin: solarized-dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/runbing" }
+
+google_analytics: G-PFKX9MMHXH
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+author: Runbing
+timezone: Asia/Taipei
+
+# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title  - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 5
+    after: 5
+  indexpage: 'index'
+
+# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md
+autopages:
+  enabled: true
+  tags:
+    enabled: true
+    layouts:
+      - autopage_tags.html
+  categories:
+    enabled: true
+    permalink: /categories/:cat
+    layouts:
+      - autopage_category.html
+  collections:
+    enabled: false
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - jekyll-create-article.sh
+  - git.sh

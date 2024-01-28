@@ -1,0 +1,21 @@
+---
+layout: post
+---
+
+{{content}}
+
+<div>
+  <hr />
+  <strong>Category:</strong>
+  <ul>
+    {% for category in page.categories %}
+    <li><a href="/categories/{{ category | url_encode }}">{{ category }}</a></li>
+    {% endfor %}
+  </ul>
+  <strong>Tags:</strong>
+  <ul>
+    {% for tag in page.tags %}
+    <li><a href="/tags/{{ tag | url_encode }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

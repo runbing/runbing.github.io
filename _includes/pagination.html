@@ -1,0 +1,27 @@
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page -%}
+    <a href="{{ paginator.previous_page_path | relative_url | remove_first: 'index.html' }}">&laquo; Prev</a>
+  {%- else -%}
+    <span>&laquo; Prev</span>
+  {%- endif -%}
+  <small>｜</small>
+
+  {%- if paginator.page_trail -%}
+    {% for trail in paginator.page_trail -%}
+      {%- if page.url == trail.path -%}
+        {{ trail.num }}
+      {%- else -%}
+        <a href="{{ trail.path | relative_url | remove_first: 'index.html' }}" title="{{trail.title}}">{{ trail.num }}</a>
+      {%- endif -%}
+      <small>｜</small>
+    {%- endfor %}
+  {%- endif -%}
+
+  {%- if paginator.next_page -%}
+    <a href="{{ paginator.next_page_path | relative_url | remove_first: 'index.html' }}">Next &raquo;</a>
+  {%- else -%}
+    <span>Next &raquo;</span>
+  {%- endif %}
+</div>
+{% endif %}

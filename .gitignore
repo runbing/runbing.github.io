@@ -1,0 +1,10 @@
+Gemfile.lock
+_site
+_drafts
+.sass-cache
+.jekyll-metadata
+.DS_*
+jekyll-create-article.sh
+index.md_bak
+.jekyll-cache
+git.sh

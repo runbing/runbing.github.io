@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <hr />
+  {%- if site.buzzes.size > 0 -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y %H:%M:%S" -%}
+      {%- for post in paginator.posts -%}
+      <li>
+        <p>{{ post.content }}</p>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {%- unless forloop.last -%}<hr />{%- endunless -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  {%- include pagination.html -%}
+
+</div>
