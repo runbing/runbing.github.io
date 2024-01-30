@@ -78,6 +78,35 @@ Resources for learning &amp; review.
 
 * [PyQt](https://www.riverbankcomputing.com/static/Docs/PyQt6/index.html)
 * [PySide](https://doc.qt.io/qtforpython-6/)
+  * [Qt Overviews](https://doc.qt.io/qtforpython-6/overviews/overviews-main.html)
+  * [Getting Started with Qt](https://doc.qt.io/qtforpython-6/overviews/gettingstarted.html)
+  * [Qt Test Tutorial](https://doc.qt.io/qtforpython-6/overviews/qtest-tutorial.html)
+  * [Qt Test Overview](https://doc.qt.io/qtforpython-6/overviews/qtest-overview.html)
+  * [Application Main Window](https://doc.qt.io/qtforpython-6/overviews/mainwindow.html)
+  * [Layout Management](https://doc.qt.io/qtforpython-6/overviews/layout.html)
+  * [Qt Style Sheets](https://doc.qt.io/qtforpython-6/overviews/stylesheet.html)
+  * [Qt Style Sheets Reference](https://doc.qt.io/qtforpython-6/overviews/stylesheet-reference.html)
+  * [Signals & Slots](https://doc.qt.io/qtforpython-6/overviews/signalsandslots.html)
+  * [Signals and Slots](https://doc.qt.io/qtforpython-6/tutorials/basictutorial/signals_and_slots.html)
+  * [Rich Text Processing](https://doc.qt.io/qtforpython-6/overviews/richtext.html)
+  * [Model/View Tutorial](https://doc.qt.io/qtforpython-6/overviews/modelview.html)
+  * [Model/View Programming](https://doc.qt.io/qtforpython-6/overviews/model-view-programming.html)
+  * [The Qt Resource System](https://doc.qt.io/qtforpython-6/overviews/resources.html)
+  * [WebSocket server example](https://doc.qt.io/qtforpython-6/overviews/echoserver.html)
+  * [QWebSocket client example](https://doc.qt.io/qtforpython-6/overviews/echoclient.html)
+  * [Threading Basics](https://doc.qt.io/qtforpython-6/overviews/thread-basics.html)
+  * [Thread Support in Qt](https://doc.qt.io/qtforpython-6/overviews/threads.html)
+  * [Concurrent Task](https://doc.qt.io/qtforpython-6/overviews/qtconcurrenttask.html)
+  * [Concurrent Run](https://doc.qt.io/qtforpython-6/overviews/qtconcurrentrun.html)
+  * [Making Applications Scriptable](https://doc.qt.io/qtforpython-6/overviews/qtjavascript.html)
+  * [Qt Quick Examples and Tutorials](https://doc.qt.io/qtforpython-6/overviews/qtquick-codesamples.html)
+  * [QML Applications](https://doc.qt.io/qtforpython-6/overviews/qmlapplications.html)
+  * [The QML Reference](https://doc.qt.io/qtforpython-6/overviews/qmlreference.html)
+  * [Using the SQL Model Classes](https://doc.qt.io/qtforpython-6/overviews/sql-model.html)
+  * [Qt WebEngine Overview](https://doc.qt.io/qtforpython-6/overviews/qtwebengine-overview.html)
+  * [HTTP Client](https://doc.qt.io/qtforpython-6/overviews/qtnetwork-http-example.html)
+  * [Setting the Application Icon](https://doc.qt.io/qtforpython-6/overviews/appicon.html)
+  * [More ...](https://www.google.com/search?q=site%3Adoc.qt.io%2Fqtforpython-6%2Foverviews%2F)
 * [Qt](https://doc.qt.io/)
 
 #### ● Web Front end
@@ -310,6 +339,7 @@ Resources for learning &amp; review.
 * [Image to data-URI converter](https://websemantics.uk/tools/image-to-data-uri-converter/)
 * [SSL Server Test](https://www.ssllabs.com/ssltest/analyze.html)
 * [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/)
+* [WordNet](https://wordnet.princeton.edu/documentation)
 
 #### ● Others
 
