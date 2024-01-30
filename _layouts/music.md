@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="" style="background-color:whitesmoke;width:100%;"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="" id="music-player"></iframe>
 
 <hr />
 

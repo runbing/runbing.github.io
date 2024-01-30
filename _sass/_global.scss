@@ -1,3 +1,11 @@
 body {
     font-family: Domine, Asap, "Noto Sans SC", "Noto Serif SC";
 }
+
+#music-player {
+    position: sticky;
+    top: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 100%;
+}

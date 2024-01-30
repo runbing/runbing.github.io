@@ -9,6 +9,7 @@ permalink: /music/
 * [迷途](https://music.163.com/song?id=1401523241)
 * [世界上不存在的歌](https://music.163.com/song?id=1430560419)
 * [方的言](https://music.163.com/song?id=1430553802)
+* [渣](https://music.163.com/song?id=1430560460)
 * [清风徐来](https://music.163.com/song?id=498555811)
 * [爱情的枪](https://music.163.com/song?id=1478028488)
 * [诺言](https://music.163.com/song?id=377773)
