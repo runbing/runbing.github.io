@@ -9,7 +9,7 @@ Resources for learning &amp; review.
 
 ### ○ Technology Docs
 
-#### ● Programing
+#### ● Programing Language
 
 * [Learn Java](https://dev.java/learn/)
 * [Oracle Docs](https://docs.oracle.com/)
@@ -22,6 +22,10 @@ Resources for learning &amp; review.
   * [Python 2](https://docs.python.org/2/)
   * [Python Enhancement Proposals (PEPs)](https://www.python.org/dev/peps/)
   * [pip](https://pip.pypa.io/en/latest/)
+* [PHP](http://php.net/manual/en/)
+* [PHP Standards Recommendations](https://www.php-fig.org/psr/)
+* [PHP Documentor](https://docs.phpdoc.org/)
+* [PHP The Right Way](https://phptherightway.com)
 * [Dart](https://dart.dev/guides)
 * [Go](https://go.dev/doc/)
 * [Rust](https://www.rust-lang.org/learn)
@@ -47,10 +51,12 @@ Resources for learning &amp; review.
   * [Perl-compatible Regular Expressions (revised API: PCRE2)](https://www.pcre.org/current/doc/html/)
   * [Perl-compatible Regular Expressions (PCRE)](https://www.pcre.org/original/doc/html/)
   * [Perl regular expressions man page](https://perldoc.perl.org/perlre)
-* [PHP](http://php.net/manual/en/)
-* [PHP Standards Recommendations](https://www.php-fig.org/psr/)
-* [PHP Documentor](https://docs.phpdoc.org/)
-* [PHP The Right Way](https://phptherightway.com)
+
+#### ● Software Engineering
+
+* [Unified Modeling Language](https://www.omg.org/spec/UML)
+* [Open Data Structures](http://opendatastructures.org/)
+* [Design Pattern](https://refactoring.guru/design-patterns)
 * [Google Style Guides](https://github.com/google/styleguide)
   * [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
   * [JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)

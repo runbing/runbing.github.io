@@ -44,6 +44,8 @@ minima:
   # skin: solarized-dark
   social_links:
     - { platform: github,  user_url: "https://github.com/runbing" }
+    - { platform: twitter,  user_url: "https://twitter.com/runbing" }
+    - { platform: rss, user_url: "feed.xml" }
 
 google_analytics: G-PFKX9MMHXH
 

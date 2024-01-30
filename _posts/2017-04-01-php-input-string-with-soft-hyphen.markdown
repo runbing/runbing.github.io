@@ -52,4 +52,3 @@ $request->merge(['sn' => $request->sn]);
 
 * [PHP: Check if string contains soft hypen and replace it](http://stackoverflow.com/questions/10148184/php-check-if-string-contains-soft-hypen-and-replace-it)
 * [How to change value of a request parameter in laravel 5.1](http://stackoverflow.com/questions/36812476/how-to-change-value-of-a-request-parameter-in-laravel-5-1)
-

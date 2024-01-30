@@ -239,4 +239,3 @@ layout: default
 
 * [Pagination](https://jekyllrb.com/docs/pagination/)
 * [How to use Jekyll-paginate without index.html?](https://stackoverflow.com/questions/46182805/how-to-use-jekyll-paginate-without-index-html)
-
