@@ -33,6 +33,7 @@ collections:
 
 header_pages:
   - buzzes.md
+  - docs.md
   - links.md
   - tags.md
   - categories.md

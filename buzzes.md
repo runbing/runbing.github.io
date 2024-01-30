@@ -3,7 +3,6 @@ layout: buzzes
 title: Buzzes
 path: buzzes.md
 permalink: /buzzes
-order: 1
 pagination:
   enabled: true
   collection: buzzes
