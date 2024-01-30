@@ -4,7 +4,7 @@ title: Links
 permalink: /links/
 ---
 
-### ○ Friend & Neighbor
+### ○ Friends & Neighbors
 
 * [Sherry](https://wangshuihua.com) - *my beloved lady*
 
