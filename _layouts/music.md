@@ -32,7 +32,6 @@ layout: page
     const loading = player_box.querySelector('.loading')
     const player = player_box.querySelector('iframe');
 
-
     player.addEventListener('load', event => loading.classList.add('hide'))
 
     function music_url(id) {
