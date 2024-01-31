@@ -40,11 +40,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px dashed #df2b30;
+    background-color: #df2b30;
+    border: 13px solid black;
     border-radius: 50%;
-    width: 26px;
-    height: 26px;
-    color: #df2b30;
+    width: 20px;
+    height: 20px;
+    color: whitesmoke;
+    font-size: .6rem;
     animation: 3s linear 0s infinite music-loading;
 }
 
