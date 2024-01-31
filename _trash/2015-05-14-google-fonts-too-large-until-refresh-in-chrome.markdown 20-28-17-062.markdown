@@ -28,11 +28,11 @@ body{
 
 以上代码中的“font-family”使用的 Web Fonts 是 Google Fonts 中的一款衬线字体“Merriweather”，在页面中字体的字号大小预期效果应该是 12p 的文字，如下图所示：
 
-![字号为12px的字体](/images/2015/05/big-font_1.png)
+![字号为12px的字体](/assets/img/2015/05/big-font_1.png)
 
 但当使用 Chrome 预览页面时，却出现了怪事，每当页面初次载入时，页面中字体的字号总会比 CSS 声明的字号要大很多倍，如下图所示：
 
-![字号为20px的字体](/images/2015/05/big-font_2.png)
+![字号为20px的字体](/assets/img/2015/05/big-font_2.png)
 
 但再次刷新页面后，字号又恢复成了 CSS 中声明的字号。随后我又在 Firefox、Safari 中测试了下，均不会出现此问题。Google 了一下相关资料，找到了一个遇到相同问题的网友发布的帖子：
 

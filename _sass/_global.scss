@@ -4,8 +4,63 @@ body {
 
 #music-player {
     position: sticky;
-    top: 10px;
-    border-radius: 10px;
-    background-color: whitesmoke;
+    top: 0px;
+    min-height: 86px;
+}
+
+#music-player iframe {
+    display: block;
     width: 100%;
+}
+
+#music-player .loading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    border: 10px solid #fdfdfd;
+    background-color: whitesmoke;
+    color: grey;
+    font-size: .8rem;
+    font-family: san-serif;
+    letter-spacing: 1px;
+}
+
+#music-player .loading.hide {
+    display: none;
+}
+
+#music-player .loading::before {
+    content: "♫";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px dashed #df2b30;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    color: #df2b30;
+    animation: 3s linear 0s infinite music-loading;
+}
+
+@keyframes music-loading {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.music-list li::marker {
+    content: '🎵 ';
+}
+
+.music-list li:has(> a:hover)::marker {
+    content: '🎸 ';
 }

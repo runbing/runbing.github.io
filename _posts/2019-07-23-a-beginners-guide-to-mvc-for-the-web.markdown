@@ -54,7 +54,7 @@ excerpt: 本文解释了作为模式的 MVC 和作为概念的“MVC”，两者
 
 MVC 是 “Model（模型）、View（视图）、Controller（控制器”）。它描述了三者的一种非常具体的约定。
 
-![](/images/2019/07/mvc.png)
+![](/assets/img/2019/07/mvc.png)
 
 <!-- Each part is responsible for the following: -->
 

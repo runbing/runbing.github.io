@@ -25,7 +25,7 @@ DRM，全称 Digital Rights Management（数字版权管理），是随着电子
 
 先举个例子，我从亚马逊购买了一本电子书，尝试使用 Calibre 软件把这本电子书的 azw 格式文件换成 mobi 格式时，会弹出如下图所示的错误提示，无法转换格式也无法阅读：
 
-![azw-drm-alert](/images/2014/08/azw-drm-alert.png)
+![azw-drm-alert](/assets/img/2014/08/azw-drm-alert.png)
 
 在美国亚马逊（美亚）或日本亚马逊（日亚）购买的 Kindle 设备（如 Kindle4、Kindle5）是无法绑定中国亚马逊账号的，这就导致在中国亚马逊购买的电子书不能通过正常推送渠道推送电子书，同样，在美亚日亚购买的电子书也无法推送到绑定中国亚马逊账号的Kindle中。
 
@@ -37,7 +37,7 @@ DRM，全称 Digital Rights Management（数字版权管理），是随着电子
 
 ### 1、下载 DeDRM tools 软件
 
-![DeDRM](/images/2014/08/DeDRM.png)
+![DeDRM](/assets/img/2014/08/DeDRM.png)
 
 下载 DeDRM tools 备用。运行该软件可能会需要如下所示的那些依赖项，请按需处理。
 
@@ -102,15 +102,15 @@ DeDRM tools 提供了不同的 DRM 移除方式，你可以根据自己的情况
 
 打开刚才解压的 DeDRM\_tools-master 文件夹，进入 DeDRM\_Macintosh\_Application 目录，双击打开 DeDRM，界面如下图所示，点击界面右下角【Configure...】
 
-![dedrm-mac](/images/2014/08/dedrm-mac.jpg)
+![dedrm-mac](/assets/img/2014/08/dedrm-mac.jpg)
 
 在弹出的窗口中选中第一项【eInk Kindle ebooks】，然后点击【Configure...】（也可以双击【eInk Kindle ebooks】这一项）。
 
-![dedrm-mac2](/images/2014/08/dedrm-mac2.jpg)
+![dedrm-mac2](/assets/img/2014/08/dedrm-mac2.jpg)
 
 在弹出的窗口中输入你的 Kindle 序列号，点击【Add】按钮。
 
-![dedrm-mac3](/images/2014/08/dedrm-mac3.jpg)
+![dedrm-mac3](/assets/img/2014/08/dedrm-mac3.jpg)
 
 返回主界面后，点击界面下方的【Select Ebook】，选择刚才拷贝的那个 AZW 或 AZW3 文件，点击确定即可完成 DRM 的移除。
 
@@ -118,7 +118,7 @@ DeDRM tools 提供了不同的 DRM 移除方式，你可以根据自己的情况
 
 打开刚才解压的 DeDRM\_tools-master 文件夹，进入 DeDRM\_Windows\_Application\\DeDRM\_App 目录，双击打开 DeDRM\_Drop\_Target.bat，出现如下界面：
 
-![dedrm-windows](/images/2014/08/dedrm-windows.jpg)
+![dedrm-windows](/assets/img/2014/08/dedrm-windows.jpg)
 
 在【eInk Kindle Serial Number list】一栏中填写你的 Kindle 序列号，然后点击下方的【Set Prefs】按钮保存。接下来，点击界面下面的【Select an eBook to Process】一栏后面的【...】按钮，选择电子书，点击【Process eBook】即可完成 DRM 的移除。
 
@@ -140,7 +140,7 @@ DeDRM tools 提供了不同的 DRM 移除方式，你可以根据自己的情况
 
 如果你习惯使用 [Calibre](https://calibre-ebook.com/) 管理电子书，可以安装插件形式的 DeDRM Tools。只需要将“DeDRM\_tools-master/DeDRM\_calibre\_plugin”文件夹里的插件包“DeDRM\_plugin.zip”导入到 Calibre 的插件里，这样就可以通过将 AZW 或 AZW3 格式的文件拖入书库自动移除 DRM 保护。
 
-![calibre-plugin](/images/2014/08/calibre-plugin.jpg)
+![calibre-plugin](/assets/img/2014/08/calibre-plugin.jpg)
 
 导入插件并移除电子书 DRM 保护的详细步骤：
 
