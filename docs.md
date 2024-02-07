@@ -98,6 +98,7 @@ Resources for learning &amp; review.
   * [Model/View Tutorial](https://doc.qt.io/qtforpython-6/overviews/modelview.html)
   * [Model/View Programming](https://doc.qt.io/qtforpython-6/overviews/model-view-programming.html)
   * [The Qt Resource System](https://doc.qt.io/qtforpython-6/overviews/resources.html)
+  * [Translating Applications](https://doc.qt.io/qtforpython-6/tutorials/basictutorial/translations.html)
   * [WebSocket server example](https://doc.qt.io/qtforpython-6/overviews/echoserver.html)
   * [QWebSocket client example](https://doc.qt.io/qtforpython-6/overviews/echoclient.html)
   * [Threading Basics](https://doc.qt.io/qtforpython-6/overviews/thread-basics.html)
