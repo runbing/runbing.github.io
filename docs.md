@@ -113,6 +113,8 @@ Resources for learning &amp; review.
   * [Qt WebEngine Overview](https://doc.qt.io/qtforpython-6/overviews/qtwebengine-overview.html)
   * [HTTP Client](https://doc.qt.io/qtforpython-6/overviews/qtnetwork-http-example.html)
   * [Setting the Application Icon](https://doc.qt.io/qtforpython-6/overviews/appicon.html)
+  * [Paint System](https://doc.qt.io/qtforpython-6/overviews/paintsystem.html)
+  * [Painter Paths Example](https://doc.qt.io/qtforpython-6/overviews/qtwidgets-painting-painterpaths-example.html)
   * [More ...](https://www.google.com/search?q=site%3Adoc.qt.io%2Fqtforpython-6%2Foverviews%2F)
 * [Qt](https://doc.qt.io/)
 
