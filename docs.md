@@ -82,6 +82,7 @@ Resources for learning &amp; review.
 
 #### ● Desktop Application
 
+* [Qt](https://doc.qt.io/)
 * [PyQt](https://www.riverbankcomputing.com/static/Docs/PyQt6/index.html)
 * [PySide](https://doc.qt.io/qtforpython-6/)
   * [Qt Overviews](https://doc.qt.io/qtforpython-6/overviews/overviews-main.html)
@@ -115,8 +116,8 @@ Resources for learning &amp; review.
   * [Setting the Application Icon](https://doc.qt.io/qtforpython-6/overviews/appicon.html)
   * [Paint System](https://doc.qt.io/qtforpython-6/overviews/paintsystem.html)
   * [Painter Paths Example](https://doc.qt.io/qtforpython-6/overviews/qtwidgets-painting-painterpaths-example.html)
+  * [Drag and Drop](https://doc.qt.io/qtforpython-6/overviews/dnd.html)
   * [More ...](https://www.google.com/search?q=site%3Adoc.qt.io%2Fqtforpython-6%2Foverviews%2F)
-* [Qt](https://doc.qt.io/)
 
 #### ● Web Front end
 
