@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name=$(echo `date '+%Y-%m-%d-%H%M'`)
+name=$(echo `date '+%Y-%m-%d-%s'`)
 date=$(echo `date '+%Y-%m-%d %H:%M:%S'`)
 templ=$(cat <<TEXT
 ---
