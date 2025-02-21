@@ -4,10 +4,6 @@ title: Links
 permalink: /links/
 ---
 
-### ○ Friends & Neighbors
-
-* [Sherry](https://wangshuihua.com) - *my beloved lady*
-
 ### ○ Favorite Blogs
 
 * [Martin Fowler](https://martinfowler.com/)
