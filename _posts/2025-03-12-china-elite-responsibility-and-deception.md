@@ -2,7 +2,7 @@
 layout: article
 title: "[AI说] 精英话术的陷阱"
 date: 2025-03-12 20:40:20 +0800
-updated: 2025-08-22 20:40:20 +0800
+updated: 2025-03-12 20:40:20 +0800
 author: ChatGPT
 tags:
   - ai
