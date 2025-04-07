@@ -93,7 +93,7 @@ Resources for learning &amp; review.
   * [Layout Management](https://doc.qt.io/qtforpython-6/overviews/layout.html)
   * [Qt Style Sheets](https://doc.qt.io/qtforpython-6/overviews/stylesheet.html)
   * [Qt Style Sheets Reference](https://doc.qt.io/qtforpython-6/overviews/stylesheet-reference.html)
-  * [Signals & Slots](https://doc.qt.io/qtforpython-6/overviews/signalsandslots.html)
+  * [Signals & Slots](https://doc.qt.io/qtforpython-6/overviews/qtcore-signalsandslots.html)
   * [Signals and Slots](https://doc.qt.io/qtforpython-6/tutorials/basictutorial/signals_and_slots.html)
   * [Rich Text Processing](https://doc.qt.io/qtforpython-6/overviews/richtext.html)
   * [Model/View Tutorial](https://doc.qt.io/qtforpython-6/overviews/modelview.html)
