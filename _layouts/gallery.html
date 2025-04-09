@@ -146,7 +146,7 @@ layout: page
     {% for item in site.data.gellery_items %}
       {
         title: "{{ item[0] }}",
-        thumbnail: "{{ '/assets/gallery/' | append: item[1] | replace_regex: '\\.[^.]+$', '_thumbnail.jpg' | relative_url }}",
+        thumbnail: "{{ '/assets/gallery/' | append: item[1] | replace: '.png', '_thumbnail.jpg' | relative_url }}",
         image: "{{ '/assets/gallery/' | append: item[1] | relative_url }}"
       },
     {% endfor %}
