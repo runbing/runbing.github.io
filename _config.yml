@@ -31,23 +31,25 @@ collections:
     output: true
     permalink: /buzzes/:title.html
 
-header_pages:
-  - buzzes.md
-  - docs.md
-  - links.md
-  - music.md
-  - gallery.md
-  - tags.md
-  - categories.md
-  - about.md
-
 theme: minima
 minima:
   # skin: solarized-dark
   social_links:
-    - { platform: github,  user_url: "https://github.com/runbing" }
-    - { platform: twitter,  user_url: "https://twitter.com/runbing" }
-    - { platform: rss, user_url: "/feed.xml" }
+    - title: github
+      icon: github
+      url: "https://github.com/runbing"
+    - title: twitter
+      icon: x-twitter
+      url: "https://twitter.com/runbing"
+  nav_pages:
+    - buzzes.md
+    - docs.md
+    - links.md
+    - music.md
+    - gallery.md
+    - tags.md
+    - categories.md
+    - about.md
 
 google_analytics: G-PFKX9MMHXH
 
