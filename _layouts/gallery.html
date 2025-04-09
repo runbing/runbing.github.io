@@ -1,0 +1,294 @@
+---
+layout: page
+---
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Default: 4 columns per row */
+    gap: 16px; /* Spacing between items */
+  }
+
+  .gallery figure {
+    margin: 0;
+    text-align: center;
+    cursor: pointer; /* Indicate clickable thumbnails */
+    overflow: hidden; /* Prevent content overflow */
+  }
+
+  .gallery figure > div {
+    position: relative;
+    min-height: 120px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in effect */
+    opacity: 0;
+  }
+
+  .gallery img.loaded {
+    opacity: 1;
+  }
+
+  .gallery figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  /* Modal styles */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .modal img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .gallery {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for smaller screens */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile screens */
+    }
+  }
+
+  @media (max-width: 400px) {
+    .gallery {
+      grid-template-columns: 1fr; /* 1 column for very small screens */
+    }
+  }
+
+  .placeholder {
+    position: absolute;
+    width: 100%;
+    height: 100%; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Light gray placeholder */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #aaa;
+    border-radius: 8px; /* Match the image's border-radius */
+  }
+
+  .placeholder.hidden {
+    display: none; /* Hide the placeholder */
+  }
+</style>
+
+{{ content }}
+
+<hr />
+
+<div class="gallery" id="gallery"></div>
+
+<!-- Modal for full-size image -->
+<div class="modal" id="imageModal">
+  <span class="modal-close" id="modalClose">&times;</span>
+  <img id="modalImage" src="" alt="Full-size image">
+</div>
+
+<div class="pagination" id="pagination"></div>
+
+<script>
+  const galleryItems = [
+    {% for item in site.data.gellery_items %}
+      {
+        title: "{{ item[0] }}",
+        thumbnail: "{{ '/assets/gallery/' | append: item[1] | replace_regex: '\\.[^.]+$', '_thumbnail.jpg' | relative_url }}",
+        image: "{{ '/assets/gallery/' | append: item[1] | relative_url }}"
+      },
+    {% endfor %}
+  ];
+
+  const itemsPerPage = 4;
+  let currentPage = 1;
+
+  function renderGallery() {
+    const gallery = document.getElementById('gallery');
+    gallery.innerHTML = '';
+
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const itemsToShow = galleryItems.slice(start, end);
+
+    itemsToShow.forEach(item => {
+      const figure = document.createElement('figure');
+      const wrapper = document.createElement('div');
+      const caption = document.createElement('figcaption');
+
+      const placeholder = document.createElement('div');
+      placeholder.classList.add('placeholder');
+      placeholder.textContent = 'Loading...';
+
+      const img = document.createElement('img');
+      img.src = item.thumbnail;
+      img.alt = item.title;
+      img.loading = 'lazy';
+
+      img.addEventListener('load', () => {
+        console.log(placeholder);
+        placeholder.classList.add('hidden');
+        img.classList.add('loaded');
+      });
+
+      img.addEventListener('error', () => {
+        placeholder.textContent = 'Failed to load image';
+      });
+
+      wrapper.appendChild(placeholder);
+      wrapper.appendChild(img);
+      figure.appendChild(wrapper);
+      caption.innerHTML = item.title;
+      figure.appendChild(caption)
+      figure.addEventListener('click', () => openModal(item.image));
+      gallery.appendChild(figure);
+    });
+  }
+
+  function renderPagination() {
+    const pagination = document.getElementById('pagination');
+    pagination.innerHTML = '';
+
+    const totalPages = Math.ceil(galleryItems.length / itemsPerPage);
+
+    const prevSpan = document.createElement('span');
+    if (currentPage > 1) {
+      const prevLink = document.createElement('a');
+      prevLink.href = '#';
+      prevLink.textContent = '« Prev';
+      prevLink.addEventListener('click', () => {
+        currentPage--;
+        renderGallery();
+        renderPagination();
+      });
+      pagination.appendChild(prevLink);
+    } else {
+      prevSpan.textContent = '« Prev';
+      pagination.appendChild(prevSpan);
+    }
+
+    const separator1 = document.createElement('small');
+    separator1.textContent = '｜';
+    pagination.appendChild(separator1);
+
+    for (let i = 1; i <= totalPages; i++) {
+      if (i === currentPage) {
+        const currentPageSpan = document.createElement('span');
+        currentPageSpan.textContent = i;
+        pagination.appendChild(currentPageSpan);
+      } else {
+        const pageLink = document.createElement('a');
+        pageLink.href = '#';
+        pageLink.textContent = i;
+        pageLink.addEventListener('click', () => {
+          currentPage = i;
+          renderGallery();
+          renderPagination();
+        });
+        pagination.appendChild(pageLink);
+      }
+
+      if (i < totalPages) {
+        const separator = document.createElement('small');
+        separator.textContent = '｜';
+        pagination.appendChild(separator);
+      }
+    }
+
+    const separator2 = document.createElement('small');
+    separator2.textContent = '｜';
+    pagination.appendChild(separator2);
+
+    const nextSpan = document.createElement('span');
+    if (currentPage < totalPages) {
+      const nextLink = document.createElement('a');
+      nextLink.href = '#';
+      nextLink.textContent = 'Next »';
+      nextLink.addEventListener('click', () => {
+        currentPage++;
+        renderGallery();
+        renderPagination();
+      });
+      pagination.appendChild(nextLink);
+    } else {
+      nextSpan.textContent = 'Next »';
+      pagination.appendChild(nextSpan);
+    }
+  }
+
+  const modal = document.getElementById('imageModal');
+  const modalImage = document.getElementById('modalImage');
+  const modalClose = document.getElementById('modalClose');
+
+  function openModal(imageSrc) {
+    modalImage.src = imageSrc;
+    modal.style.display = 'flex';
+  }
+
+  modalClose.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+    renderGallery();
+    renderPagination();
+  });
+</script>
