@@ -188,6 +188,7 @@ Resources for learning &amp; review.
 * [Mustache](https://github.com/bobthecow/mustache.php/wiki/Home)
 * [Twig](https://twig.symfony.com/doc)
 * [Chart.js](https://www.chartjs.org/docs/latest/)
+* [Tailwind CSS](https://tailwindcss.com/docs)
 
 #### ● Back-end Framework
 
