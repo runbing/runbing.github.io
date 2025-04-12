@@ -44,7 +44,6 @@ minima:
   nav_pages:
     - buzzes.md
     - docs.md
-    - links.md
     - music.md
     - gallery.md
     - tags.md
