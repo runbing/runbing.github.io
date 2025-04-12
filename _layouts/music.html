@@ -15,7 +15,7 @@ layout: page
 
 <ul class="music-list">
     {% for music in site.data.music_chinese %}
-    <li><a href="https://music.163.com/song?id={{ music[0] }}">{{ music[1] }}</a></li>
+    <li><a href="https://music.163.com/song?id={{ music[0] }}" title="{{ music[1] }}">{{ music[1] }}</a></li>
     {% endfor %}
 </ul>
 

@@ -175,6 +175,8 @@ layout: page
       const img = document.createElement('img');
       img.src = item.thumbnail;
       img.alt = item.title;
+      img.width = 400
+      img.height = 250
       img.loading = 'lazy';
 
       img.addEventListener('load', () => {

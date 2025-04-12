@@ -60,6 +60,31 @@ body {
   }
 }
 
+.music-list {
+    column-count: 1;
+    column-gap: 20px;
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+.music-list li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 400px) {
+    .music-list {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .music-list {
+        column-count: 3;
+    }
+}
+
 .music-list li::marker {
     content: '🎵 ';
 }
