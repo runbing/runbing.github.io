@@ -3,7 +3,9 @@ layout: article
 title: "[AI说] 精英话术的陷阱"
 date: 2025-03-12 20:40:20 +0800
 updated: 2025-03-12 20:40:20 +0800
-author: ChatGPT
+author:
+  - Runbing
+  - ChatGPT
 tags:
   - ai
   - chatgpt

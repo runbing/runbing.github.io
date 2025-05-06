@@ -3,7 +3,9 @@ layout: article
 title: "[AI说] 术语晦涩化的语言机制与文化心理根源"
 date: 2025-04-12 15:02:28 +0800
 updated: 2025-04-12 15:02:28 +0800
-author: ChatGPT
+author:
+  - Runbing
+  - ChatGPT
 tags:
   - ai
   - chatgpt

@@ -3,7 +3,9 @@ layout: article
 title: "[AI说] 为何中国股市总是困在 3000 点"
 date: 2025-04-09 18:21:46 +0800
 updated: 2025-04-09 18:21:46 +0800
-author: ChatGPT
+author:
+  - Runbing
+  - ChatGPT
 tags:
   - ai
   - chatgpt

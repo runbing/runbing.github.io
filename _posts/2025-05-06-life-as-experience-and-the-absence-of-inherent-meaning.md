@@ -3,7 +3,9 @@ layout: article
 title: "[AI说] 生命的意义与体验的价值"
 date: 2025-05-06 16:00:58 +0800
 updated: 2025-05-06 16:00:58 +0800
-author: ChatGPT
+author:
+  - Runbing
+  - ChatGPT
 tags:
   - ai
   - chatgpt

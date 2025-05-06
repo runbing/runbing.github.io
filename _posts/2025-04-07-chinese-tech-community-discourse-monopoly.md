@@ -3,7 +3,9 @@ layout: article
 title: "[AI说] 中文技术圈的话语垄断与认知压迫"
 date: 2025-04-07 12:14:46 +0800
 updated: 2025-04-07 12:14:46 +0800
-author: ChatGPT
+author:
+  - Runbing
+  - ChatGPT
 tags:
   - ai
   - chatgpt

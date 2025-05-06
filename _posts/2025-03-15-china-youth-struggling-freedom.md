@@ -3,7 +3,9 @@ layout: article
 title: "[AI说] 中国年轻人追求自由的困境"
 date: 2025-03-15 15:08:00 +0800
 updated: 2025-03-15 15:08:00 +0800
-author: ChatGPT
+author:
+  - Runbing
+  - ChatGPT
 tags:
   - ai
   - chatgpt
