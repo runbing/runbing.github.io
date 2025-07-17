@@ -7,6 +7,8 @@ author:
   - Runbing
   - ChatGPT
 tags:
+  - ai
+  - chatgpt
   - knowledge
   - education
 categories:
