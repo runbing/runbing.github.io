@@ -50,9 +50,9 @@ paginate_path: "/page/:num/"
 
 其中参数 `paginate` 的作用是启用分页功能的同时指定每一页需要显示多少篇文章。`paginate_path` 的作用是指定读取分页模板和存放生成的分页页面文件的位置（分页的 URL 也会按此结构形式显示）。
 
-参数 `paginate_path` 是可选的。如果没有添加它，Jekyll 会在站点根目录读取分页模板，并把生成的分页页面文件存放在目录 `/page:num/`中（`:num` 是页码数字）。以本博客为例，分页的 URL 会像这样显示 `https://runbing.me/page2/`，生成的分页页面文件会像这样存放 `/page2/index.html`。
+参数 `paginate_path` 是可选的。如果没有添加它，Jekyll 会在站点根目录读取分页模板，并把生成的分页页面文件存放在目录 `/page:num/`中（`:num` 是页码数字）。以本博客为例，分页的 URL 会像这样显示 `https://runbing.cc/page2/`，生成的分页页面文件会像这样存放 `/page2/index.html`。
 
-而如果像上面那样配置，分页的 URL 则会像这样显示 `https://runbing.me/page/2/`，生成的分页页面文件会像这样存放 `/page/2/index.html`。如果你的博客在子目录中，比如 `blog`，可以像官方文档所描述的那样，把参数 `pagination_path` 的值设置为 `/blog/page:num/`。这样，Jekyll 就会从子目录 `blog` 中读取分页模板，并把分页页面文件存放在子目录中，如 `/blog/page2/index.html`。
+而如果像上面那样配置，分页的 URL 则会像这样显示 `https://runbing.cc/page/2/`，生成的分页页面文件会像这样存放 `/page/2/index.html`。如果你的博客在子目录中，比如 `blog`，可以像官方文档所描述的那样，把参数 `pagination_path` 的值设置为 `/blog/page:num/`。这样，Jekyll 就会从子目录 `blog` 中读取分页模板，并把分页页面文件存放在子目录中，如 `/blog/page2/index.html`。
 
 不过想要分页正常工作，还需要特别注意 Jekyll 官方文档的一个提示信息：
 

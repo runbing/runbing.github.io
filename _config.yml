@@ -19,7 +19,7 @@ lang: zh-CN
 description: >- # this means to ignore newlines until "baseurl:"
   My playground. Log what I am interested in.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://runbing.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://runbing.cc" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: example
 show_excerpts: true
 markdown: kramdown
