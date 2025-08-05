@@ -20,7 +20,7 @@ excerpt: Let’s Encrypt 正在逐步废弃 OCSP 吊销机制，自 2025 年 5 �
 nginx: [warn] "ssl_stapling" ignored, no OCSP responder URL in the certificate
 ```
 
-因为平时只是简单的更新一下证书，并没有深究过与 HTTPS 相关的技术细节，突然看到这个警告感到颇为疑惑。查了半天资料，才发现问题的根源是 Let’s Encrypt 正在逐步**废除 OCSP 支持**。
+因为平时只是简单地更新一下证书，没有深究过与 HTTPS 相关的技术细节，突然看到这个警告感到颇为疑惑。查了半天资料，才发现问题的根源是 Let’s Encrypt 正在逐步**废除 OCSP 支持**。
 
 ---
 
