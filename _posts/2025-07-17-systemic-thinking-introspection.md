@@ -7,8 +7,6 @@ author:
   - Runbing
   - ChatGPT
 tags:
-  - ai
-  - chatgpt
   - epistemology
   - knowledge
 categories:

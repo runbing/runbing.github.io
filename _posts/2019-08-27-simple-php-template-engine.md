@@ -7,9 +7,9 @@ author: Runbing
 tags:
   - php
   - smarty
+  - translation
 categories:
   - programming
-  - translation
 excerpt: PHP 是一种有点罕见的语言，因为它不需要额外修改或库的支持，就已经在标记中实现将文本模板化。通过简单的 PHP 类就可以实现表示逻辑和应用逻辑的分离。而不用使用像 Smarty 这种看起来简洁但实际上臃肿的模板引擎。
 ---
 

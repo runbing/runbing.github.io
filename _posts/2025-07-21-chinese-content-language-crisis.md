@@ -7,9 +7,8 @@ author:
   - Runbing
   - ChatGPT
 tags:
-  - ai
-  - chatgpt
   - chinese
+  - language
 categories:
   - culture
 excerpt: 中文内容世界正在经历一场语言与思想的双重退化。文章深入剖析当前中文网络表达的空洞与模板化现象，指出内容创作者质量滑坡、表达空间受限、语言教育缺失等多重因素，正在加速母语表达力的瓦解。这不仅是信息生态的崩坏，更是文化信任的危机。

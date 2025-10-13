@@ -7,8 +7,8 @@ author:
   - Runbing
   - ChatGPT
 tags:
-  - ai
-  - chatgpt
+  - freedom
+  - family
 categories:
   - society
 excerpt: 本文探讨了中国年轻人在追求自由过程中面临的困境，分析了社会、家庭和经济压力如何限制个人独立性。文章深入剖析了家庭控制、社会保障体系的缺失以及社会期望等因素对年轻人自由追求的影响。

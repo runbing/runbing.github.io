@@ -8,9 +8,9 @@ tags:
   - mvc
   - php
   - design-pattern
+  - translation
 categories:
   - programming
-  - translation
 excerpt: 本文解释了作为模式的 MVC 和作为概念的“MVC”，两者都只适用于有状态的应用程序，而不是无状态的 WEB 应用。与其纠结 MVC 不如把精力放在抽象概念、关注点分离和架构上。
 ---
 

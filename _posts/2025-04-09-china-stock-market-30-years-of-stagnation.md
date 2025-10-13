@@ -7,10 +7,10 @@ author:
   - Runbing
   - ChatGPT
 tags:
-  - ai
-  - chatgpt
-categories:
+  - stock
   - market
+categories:
+  - economy
 excerpt: 尽管中国股市已运行三十余年，却始终徘徊在 3000 点上下，难以突破。这篇文章从制度设计、投资者结构、政策干预与社会信任等多个角度，系统剖析了中国股市长期低迷的深层原因，并尝试回答一个关键问题：在一个政策主导的市场中，理性投资究竟有多大空间？
 ---
 

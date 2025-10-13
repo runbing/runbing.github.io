@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "no OCSP responder URL in the certificate"
+title: "Let's Enncrypt: no OCSP responder URL in the certificate"
 date: 2025-07-26 01:20:37 +0800
 updated: 2025-07-26 01:20:37 +0800
 author:

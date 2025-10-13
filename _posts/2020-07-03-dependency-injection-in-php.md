@@ -6,9 +6,9 @@ updated: 2020-07-06 13:41:20 +0800
 author: Runbing
 tags:
   - php
+  - translation
 categories:
   - programming
-  - translation
 excerpt: 你必须始终从你的代码中移除硬编码依赖项，并取而代之使用“依赖注入”注入它们，从而获益。然后使用某些依赖注入容器自动地管理所有这些注入的依赖项。
 ---
 

@@ -8,9 +8,9 @@ tags:
   - php-framwork
   - composer
   - php
+  - translation
 categories:
   - programming
-  - translation
 excerpt: 这个教程的目标是，提供一种简单的方法，给人们以指点。在大多数情况下框架没有意义，在一些第三方组件的帮助下，从头开始编写一个应用要比一些人想象的要容易得多。
 ---
 

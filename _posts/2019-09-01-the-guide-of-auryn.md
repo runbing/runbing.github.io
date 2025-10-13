@@ -8,9 +8,9 @@ tags:
   - auryn
   - dic
   - php
+  - translation
 categories:
   - programming
-  - translation
 excerpt: Auryn 是一款递归依赖注入器。使用 Auryn 引导和连接 S.O.L.I.D 和面向对象的 PHP 应用程序。
 ---
 

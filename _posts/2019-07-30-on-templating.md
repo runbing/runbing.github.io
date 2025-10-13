@@ -7,9 +7,9 @@ author: Runbing
 tags:
   - php-template
   - php
+  - translation
 categories:
   - programming
-  - translation
 excerpt: 本文主要是模板引擎 Mustache 带来的启示：如果你在模板中做任何事情，只要不是一个简单的 for 或 if，那它就不属于模板。
 ---
 

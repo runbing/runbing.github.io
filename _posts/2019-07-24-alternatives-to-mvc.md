@@ -8,9 +8,9 @@ tags:
   - mvc
   - php
   - design-pattern
+  - translation
 categories:
   - programming
-  - translation
 excerpt: 本文探讨了 MVC 同类们的差别，解释概念的同时，比较了它们之间的异同。总的说来这些所谓模式都是同一种概念的不同解释，并没有真正解决本应该解决的问题。
 ---
 
