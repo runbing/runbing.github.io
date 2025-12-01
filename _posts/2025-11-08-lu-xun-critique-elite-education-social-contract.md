@@ -8,10 +8,9 @@ author:
   - ChatGPT
 tags:
   - elite
-  - culture
   - education
 categories:
-  - society
+  - culture
 excerpt: 本文重新审视鲁迅的文学批判，指出其作品更多反映知识分子的孤独与对底层愚昧的冷眼，而非系统性社会改革。文章探讨鲁迅被后世政治与精英话语神化的过程，揭示他批判的局限与教育责任的缺席，以及这种文化符号如何被体制吸纳。
 ---
 
